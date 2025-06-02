@@ -1,7 +1,15 @@
 Package: importar_compras_siat
 Name: "Importar Compras SIAT Csv"
-Version: "1.0.0"
+Version: 1.0.0
 Description: Extension para la subida en excel de compras del SIAT
 Author: Bolivia Impuestos
 Type: extension
 FA_Requires: 2.4.0
+
+[menu]
+name = Importar Compras SIAT
+module = 0
+position = right
+url = modules/importar_compras_siat/pages/importar_compras_siat.php
+permission = SA_OPEN
+type = MENU_TRANSACTION
